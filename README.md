@@ -1,2 +1,2 @@
-#Count dow project
+#Countdown project
 Custom countdown timer with localStorage feature
