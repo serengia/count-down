@@ -100,7 +100,6 @@ function restorePrevCountdown() {
     countdownDate = savedCountdown.date;
     countdownValue = new Date(countdownDate).getTime();
     updateDOM();
-    newFeature();
   }
 }
 
@@ -111,7 +110,3 @@ completeBtn.addEventListener("click", reset);
 
 //On load check local storage
 restorePrevCountdown();
-
-function newFeature() {
-  console.log("This is our new feature");
-}
